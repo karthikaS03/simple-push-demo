@@ -15,7 +15,16 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css">
   <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
-
+  
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+  <script>
+   var OneSignal = window.OneSignal || [];
+   OneSignal.push(function() {
+    OneSignal.init({
+      appId: "3dec3910-6db9-4c4d-8df2-e8efc5f0672a",
+    });
+  });
+</script>
   <!-- Page styles -->
   <link rel="stylesheet" href="./styles/main.css">
 </head>
